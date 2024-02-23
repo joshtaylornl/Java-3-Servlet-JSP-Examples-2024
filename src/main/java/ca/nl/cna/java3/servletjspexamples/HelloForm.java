@@ -1,13 +1,16 @@
-package com.example.Java_3_Servlets_JSP_Examples;
-
-// Import required java libraries
+package ca.nl.cna.java3.servletjspexamples;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
-import java.io.*;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
-// Extend HttpServlet class
+import java.io.IOException;
+import java.io.PrintWriter;
+
+/**
+ * This class demonstrates how to use the GET/PUT method to read form data
+ */
 @WebServlet(name = "helloForm", value = "/hello-form")
 public class HelloForm extends HttpServlet {
 
