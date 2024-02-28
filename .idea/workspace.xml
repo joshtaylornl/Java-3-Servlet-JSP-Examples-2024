@@ -9,47 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d277c4a1-d13f-4d6e-850b-71dbd9b15d7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/DBProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithCallableStatements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithDatabaseConnections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithDrivers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithPreparedStatements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithSelectQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a1/BooksDBProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a1/BooksDBTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a1/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/BooksDBTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/LibraryDataServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/SimpleDBManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/servletjspexamples/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/servletjspexamples/FooTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/servletjspexamples/FunWithHttpSessions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/servletjspexamples/FunWithNavigationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/servletjspexamples/HeaderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/servletjspexamples/WelcomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/servletjspexamples/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/SessionVariableForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/a2/addauthor.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/a2/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/a2/viewallbooks.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addbook.jsp" afterDir="false" />
+    <list default="true" id="d277c4a1-d13f-4d6e-850b-71dbd9b15d7e" name="Changes" comment="Updated with A2 information">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java3servletjspexamples2024/FunWithNavigationServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java3servletjspexamples2024/HeaderServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java3servletjspexamples2024/HelloForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/servletjspexamples/HelloForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java3servletjspexamples2024/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/servletjspexamples/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java3servletjspexamples2024/WelcomeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/HelloFormGetExample.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/HelloFormGetExample.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/DBProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/DBProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/JSPExamples.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/JSPExamples.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.18.executor": "Debug",
+    "Tomcat Server.Tomcat 10.1.18.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/josh.taylor/IdeaProjects/Java-3-Servlet-JSP-Examples-2024/src/main/webapp",
@@ -135,7 +98,7 @@
       <recent name="com.example.java3servletjspexamples2024" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BooksDBTester">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.18">
     <configuration name="BooksDBTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.nl.cna.java3.a2.BooksDBTester" />
       <module name="Java-3-Servlet-JSP-Examples-2024" />
@@ -287,12 +250,27 @@
       <updated>1708535509253</updated>
       <workItem from="1708535510326" duration="5104000" />
       <workItem from="1708611690422" duration="4257000" />
-      <workItem from="1708697196676" duration="2722000" />
+      <workItem from="1708697196676" duration="2817000" />
+      <workItem from="1709139930202" duration="4258000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated with A2 information">
+      <option name="closed" value="true" />
+      <created>1708700009519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708700009519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated with A2 infomration" />
+    <MESSAGE value="Updated with A2 information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated with A2 information" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

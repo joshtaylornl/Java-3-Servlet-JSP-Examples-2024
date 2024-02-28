@@ -5,17 +5,20 @@ package ca.nl.cna.java3.JDBC;
  */
 public class DBProperties {
 
-    public static final String DB_URL = "jdbc:mariadb://localhost:3307";
-
+    //TODO Update this port to the right port
+    public static final String MARIADB_PORT = "3307";
     //?user=root&password=RootPwJoSh2024
     public static final String USER = "root";
+
+    //TODO Update this password to the right password
     public static final String PASS = "RootPwJoSh2024";
 
-    //Specific test database URL
-    public static final String JAVA_TEST_DB_URL = "jdbc:mariadb://localhost:3307/java_test?user=root&password=RootPwJoSh2024";
-
-    //Book Table Information
-    public static final String BOOK_DB_URL = "jdbc:mariadb://localhost:3307/books";
+    /*
+    The common database variables
+     */
+    public static final String DB_URL = "jdbc:mariadb://localhost:" + MARIADB_PORT;
+    public static final String JAVA_TEST_DB_URL = "jdbc:mariadb://localhost:" + MARIADB_PORT + "/java_test?user=root&password=" + PASS;
+    public static final String BOOK_DB_URL = "jdbc:mariadb://localhost:" + MARIADB_PORT + "/books";
     public static final String BOOK_TABLE_NAME = "titles";
     public static final String BOOK_COL_NAME_ISBN = "isbn";
     public static final String BOOK_COL_NAME_TITLE = "title";

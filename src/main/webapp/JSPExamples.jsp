@@ -15,8 +15,6 @@
 <%-- Declare a variable in a Scriplet --%>
 <%! String string ="Hello World!"; %>
 
-
-
 <p>
     <%-- Expression --%>
     <b>1) Example of an Expression: </b>
@@ -45,15 +43,23 @@
 
 </br>
 
-<%-- JSP Implicit Objects --%>
+<%-- JSP Implicit Objects
+Play around with:
+    out
+    session
+    request
+    response
+
+    exception - only accessible if the page is set as an error page by: <%@ page isErrorPage="true" %>
+--%>
 
 <%
     out.println("4) This out is an implicit Object <br>");
     //TODO Test other Implicit Objects
+
+    application.setAttribute("name", "Josh");
+
 %>
-
-
-
 
 </body>
 </html>
