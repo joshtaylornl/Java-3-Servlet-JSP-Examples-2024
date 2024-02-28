@@ -25,7 +25,7 @@ public class FunWithPreparedStatements {
         System.out.println("Fun with Prepared Statements");
 
         try(    //Try with resources - automatically closes the connection
-                Connection conn = DriverManager.getConnection(DBProperties.JAVA_TEST_DB_URL);
+                Connection conn = DriverManager.getConnection(MariaDBProperties.JAVA_TEST_DB_URL);
                 PreparedStatement preparedStatement = conn.prepareStatement(UPDATE_QUERY);
         ) {
 

@@ -9,10 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d277c4a1-d13f-4d6e-850b-71dbd9b15d7e" name="Changes" comment="Updated with A2 information">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/DBProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/DBProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/JSPExamples.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/JSPExamples.jsp" afterDir="false" />
+    <list default="true" id="d277c4a1-d13f-4d6e-850b-71dbd9b15d7e" name="Changes" comment="Updated with Unit 3 JSP Components">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/DBProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/MariaDBProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithDatabaseConnections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithDatabaseConnections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithPreparedStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithPreparedStatements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithSelectQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithSelectQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a1/BooksDBProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a1/BooksDBTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a1/BooksDBTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/SimpleDBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/SimpleDBManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +255,7 @@
       <workItem from="1708535510326" duration="5104000" />
       <workItem from="1708611690422" duration="4257000" />
       <workItem from="1708697196676" duration="2817000" />
-      <workItem from="1709139930202" duration="4258000" />
+      <workItem from="1709139930202" duration="4631000" />
     </task>
     <task id="LOCAL-00001" summary="Updated with A2 information">
       <option name="closed" value="true" />
@@ -261,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708700009519</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated with Unit 3 JSP Components">
+      <option name="closed" value="true" />
+      <created>1709144318467</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709144318467</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +282,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated with A2 infomration" />
     <MESSAGE value="Updated with A2 information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated with A2 information" />
+    <MESSAGE value="Updated with Unit 3 JSP Components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated with Unit 3 JSP Components" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

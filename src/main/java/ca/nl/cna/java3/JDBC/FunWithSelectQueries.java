@@ -25,7 +25,7 @@ public class FunWithSelectQueries {
      */
     public static void selectAllEmployees(){
         try(    //Try with resources - automatically closes the connection
-                Connection conn = DriverManager.getConnection(DBProperties.JAVA_TEST_DB_URL);
+                Connection conn = DriverManager.getConnection(MariaDBProperties.JAVA_TEST_DB_URL);
                 Statement stmt = conn.createStatement();
                 ResultSet rs = stmt.executeQuery(QUERY);
         ) {

@@ -1,5 +1,7 @@
 package ca.nl.cna.java3.a1;
 
+import ca.nl.cna.java3.JDBC.MariaDBProperties;
+
 import java.sql.*;
 
 public class BooksDBTester {
@@ -7,7 +9,7 @@ public class BooksDBTester {
     public static void main(String[] args) {
         System.out.println("Fun with testing our Books DB");
 
-        try(Connection conn = DriverManager.getConnection(BooksDBProperties.JAVA_BOOKS_DB_URL);
+        try(Connection conn = DriverManager.getConnection(MariaDBProperties.BOOK_DB_URL_WITH_CREDENTIALS);
         ) {
             System.out.println("Print Authors Table");
             printAuthorsTable(conn);
@@ -27,7 +29,7 @@ public class BooksDBTester {
      */
     public static void printAuthorsTable(Connection connection) throws SQLException{
         Statement stmt = connection.createStatement();
-        ResultSet rs = stmt.executeQuery(BooksDBProperties.QUERY_ALL_AUTHORS);
+        ResultSet rs = stmt.executeQuery(MariaDBProperties.QUERY_ALL_AUTHORS);
         printResultSetIntoTable(rs);
     }
 
@@ -38,7 +40,7 @@ public class BooksDBTester {
      */
     public static void printTitlesTable(Connection connection) throws SQLException{
         Statement stmt = connection.createStatement();
-        ResultSet rs = stmt.executeQuery(BooksDBProperties.QUERY_ALL_TITLES);
+        ResultSet rs = stmt.executeQuery(MariaDBProperties.QUERY_ALL_TITLES);
         printResultSetIntoTable(rs);
     }
 

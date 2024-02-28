@@ -3,7 +3,7 @@ package ca.nl.cna.java3.a2;
 import java.sql.*;
 import java.util.LinkedList;
 import java.util.List;
-import ca.nl.cna.java3.JDBC.DBProperties;
+import ca.nl.cna.java3.JDBC.MariaDBProperties;
 
 /**
  * Simple class to manage the database connection and retrieve all the books from the database.
@@ -22,16 +22,16 @@ public class SimpleDBManager {
 
         Connection connection = getBooksDBConnection();
         Statement statement = connection.createStatement();
-        String sqlQuery = "SELECT * from " + DBProperties.BOOK_TABLE_NAME;
+        String sqlQuery = "SELECT * from " + MariaDBProperties.BOOK_TABLE_NAME;
 
         ResultSet resultSet = statement.executeQuery(sqlQuery);
         while(resultSet.next()) {
             bookList.add(
                     new Book(
-                            resultSet.getString(DBProperties.BOOK_COL_NAME_ISBN),
-                            resultSet.getString(DBProperties.BOOK_COL_NAME_TITLE),
-                            resultSet.getInt(DBProperties.BOOK_COL_NAME_EDITION_NUMBER),
-                            resultSet.getString(DBProperties.BOOK_COL_NAME_COPYRIGHT)
+                            resultSet.getString(MariaDBProperties.BOOK_COL_NAME_ISBN),
+                            resultSet.getString(MariaDBProperties.BOOK_COL_NAME_TITLE),
+                            resultSet.getInt(MariaDBProperties.BOOK_COL_NAME_EDITION_NUMBER),
+                            resultSet.getString(MariaDBProperties.BOOK_COL_NAME_COPYRIGHT)
                     )
             );
         }
@@ -46,7 +46,7 @@ public class SimpleDBManager {
     public static void insertBook(Book book) throws SQLException {
         Connection connection = getBooksDBConnection();
 
-        String sqlQuery = "INSERT INTO " + DBProperties.BOOK_TABLE_NAME +
+        String sqlQuery = "INSERT INTO " + MariaDBProperties.BOOK_TABLE_NAME +
                 " VALUES (?,?,?,?)";
         PreparedStatement preparedStatement = connection.prepareStatement(sqlQuery);
 
@@ -77,7 +77,7 @@ public class SimpleDBManager {
             System.err.println("Error: unable to instantiate driver!");
         }
 
-        return DriverManager.getConnection(DBProperties.BOOK_DB_URL, DBProperties.USER, DBProperties.PASS);
+        return DriverManager.getConnection(MariaDBProperties.BOOK_DB_URL, MariaDBProperties.USER, MariaDBProperties.PASS);
     }
 
 }

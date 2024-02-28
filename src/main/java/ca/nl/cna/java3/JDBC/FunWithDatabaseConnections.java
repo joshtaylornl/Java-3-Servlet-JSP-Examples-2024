@@ -13,7 +13,7 @@ public class FunWithDatabaseConnections {
 
     public static void main(String[] args) {
         // Open a connection
-        try(Connection connection = DriverManager.getConnection(DBProperties.DB_URL, DBProperties.USER, DBProperties.PASS);
+        try(Connection connection = DriverManager.getConnection(MariaDBProperties.DB_URL, MariaDBProperties.USER, MariaDBProperties.PASS);
             Statement statement = connection.createStatement();
         ) {
             //If this Database already exists it will crash. You can "drop" it in the database view or use a drop query.
