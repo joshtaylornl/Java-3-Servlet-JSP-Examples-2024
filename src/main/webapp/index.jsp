@@ -55,5 +55,7 @@
     </tr>
 </table>
 
+<h2><a href="project/index.jsp">Course Project Page</a></h2>
+
 </body>
 </html>

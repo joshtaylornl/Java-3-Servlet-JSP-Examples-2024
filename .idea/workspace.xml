@@ -10,13 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d277c4a1-d13f-4d6e-850b-71dbd9b15d7e" name="Changes" comment="Updated with Unit 3 JSP Components">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/DBProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/MariaDBProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithDatabaseConnections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithDatabaseConnections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithPreparedStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithPreparedStatements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithSelectQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/JDBC/FunWithSelectQueries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a1/BooksDBProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a1/BooksDBTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a1/BooksDBTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/SimpleDBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/SimpleDBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1bb1e92d-ee8f-4394-b6ae-076cab06ad0b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1bb1e92d-ee8f-4394-b6ae-076cab06ad0b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1bb1e92d-ee8f-4394-b6ae-076cab06ad0b/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/1bb1e92d-ee8f-4394-b6ae-076cab06ad0b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/project/LibraryApiServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/NavigationExample.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project/addauthor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/project/viewallbooks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +70,14 @@
     "Application.BooksDBTester.executor": "Run",
     "Application.FooTester.executor": "Run",
     "Application.FunWithDrivers.executor": "Run",
+    "Application.ca.nl.cna.java3.a1.BooksDBTester.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.18.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/josh.taylor/IdeaProjects/Java-3-Servlet-JSP-Examples-2024/src/main/webapp",
+    "last_opened_file_path": "C:/Users/josh.taylor/IdeaProjects/Java-3-Servlet-JSP-Examples-2024/src/main/webapp/project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,16 +96,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\josh.taylor\IdeaProjects\Java-3-Servlet-JSP-Examples-2024\src\main\webapp\project" />
       <recent name="C:\Users\josh.taylor\IdeaProjects\Java-3-Servlet-JSP-Examples-2024\src\main\webapp" />
       <recent name="C:\Users\josh.taylor\IdeaProjects\Java-3-Servlet-JSP-Examples-2024\src\main\webapp\a2" />
       <recent name="C:\Users\josh.taylor\IdeaProjects\Java-3-Servlet-JSP-Examples-2024\src\main\java\ca\nl\cna\java3\a2" />
       <recent name="C:\Users\josh.taylor\IdeaProjects\Java-3-Servlet-JSP-Examples-2024\src\main\java\ca\nl\cna\java3" />
-      <recent name="C:\Users\josh.taylor\IdeaProjects\Java-3-Servlet-JSP-Examples-2024\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josh.taylor\IdeaProjects\Java-3-Servlet-JSP-Examples-2024\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.nl.cna.java3.project" />
       <recent name="com.example.java3servletjspexamples2024" />
     </key>
   </component>
@@ -142,6 +150,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ca.nl.cna.java3.a1.BooksDBTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.nl.cna.java3.a1.BooksDBTester" />
+      <module name="Java-3-Servlet-JSP-Examples-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.nl.cna.java3.a1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10.1.18" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.18" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -153,6 +174,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="0e282be0-0ab3-4772-9174-61a1ed1ca5ed" />
+        <option name="HTTP_PORT" value="8088" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -229,10 +251,18 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BooksDBTester" />
+      <item itemvalue="Application.ca.nl.cna.java3.a1.BooksDBTester" />
+      <item itemvalue="Application.FooTester" />
+      <item itemvalue="Application.FunWithDrivers" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.18" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BooksDBTester" />
+        <item itemvalue="Application.ca.nl.cna.java3.a1.BooksDBTester" />
         <item itemvalue="Application.FunWithDrivers" />
+        <item itemvalue="Application.BooksDBTester" />
         <item itemvalue="Application.FooTester" />
       </list>
     </recent_temporary>
@@ -255,7 +285,16 @@
       <workItem from="1708535510326" duration="5104000" />
       <workItem from="1708611690422" duration="4257000" />
       <workItem from="1708697196676" duration="2817000" />
-      <workItem from="1709139930202" duration="4631000" />
+      <workItem from="1709139930202" duration="4664000" />
+      <workItem from="1709145842571" duration="723000" />
+      <workItem from="1709218410393" duration="1434000" />
+      <workItem from="1710417780704" duration="887000" />
+      <workItem from="1711112626290" duration="608000" />
+      <workItem from="1711117933535" duration="644000" />
+      <workItem from="1711553788937" duration="562000" />
+      <workItem from="1711560213901" duration="1477000" />
+      <workItem from="1711817373892" duration="6321000" />
+      <workItem from="1711987884767" duration="4224000" />
     </task>
     <task id="LOCAL-00001" summary="Updated with A2 information">
       <option name="closed" value="true" />
@@ -273,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709144318467</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated with Unit 3 JSP Components">
+      <option name="closed" value="true" />
+      <created>1709144682076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709144682076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +364,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/a2/LibraryDataServlet.java</url>
           <line>47</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/project/LibraryApiServlet.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/project/LibraryApiServlet.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/project/LibraryApiServlet.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/project/LibraryApiServlet.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ca/nl/cna/java3/project/LibraryApiServlet.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
